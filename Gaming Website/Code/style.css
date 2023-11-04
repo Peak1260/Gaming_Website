@@ -1,0 +1,304 @@
+body
+{
+  font: 15px/1.5 Arial, Helvetica, Verdana, Sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(225,225,225);
+  color: rgb(0,0,0);
+}
+.container
+{
+  width: 100%;
+  margin: left;
+  overflow: hidden;
+}
+header
+{
+  background-color: rgb(255,255,255);
+  color: rgb(0,0,0);
+  min-height: 70px;
+  border-bottom: rgb(120,120,120) 3px solid;
+}
+header a
+{
+  color: rgb(0,0,0);
+  text-decoration: none;
+  font-size: 24px;
+}
+header li
+{
+  display: inline;
+  padding: 25px;
+}
+header #branding
+{
+  float: left;
+}
+header #branding h1
+{
+  margin: 0;
+}
+header nav
+{
+  float: auto;
+  margin-top: 35px;
+}
+header #searchbar
+{
+  float: right;
+  margin-top: 6px;
+}
+section a
+{
+  text-decoration: none;
+  color: rgb(0,0,0);
+}
+#selection .game-mode
+{
+  margin-left: 35px;
+  margin-top: 25px;
+  font-size: 17px;
+  min-height: 300px;
+}
+#showcase
+{
+  padding-bottom: 20px;
+  border-bottom: rgb(120,120,120) 3px solid;
+}
+#showcase .demo-container
+{
+  margin-left: 250px;
+  margin-top: -310px;
+}
+#embeddedlink
+{
+   margin-top: 15px;
+   text-align: center;
+   margin-left: 900px;
+}
+#embeddedlink .container
+{
+  float: right;
+  margin-top: -400px;
+  font-size: 15px;
+}
+#embeddedlink .container img
+{
+  width: 225px;
+  height: 100px;
+}
+#gamelink
+{
+  float: left;
+  margin-top: 4px;
+}
+#gamelink .container
+{
+  text-align: center;
+  font-size: 18px;
+}
+#gamelink .container img
+{
+  width: 375px;
+  height: 200px;
+}
+#main .container
+{
+  float: left;
+  width: 500px;
+  word-wrap: break-word;
+  padding-left: 65px;
+  padding-top: 25px;
+}
+#personal .container
+{
+  float: right;
+  width: 600px;
+  word-wrap: break-word;
+  padding-right: 50px;
+  padding-top: 400px;
+}
+#main .container img
+{
+  position: absolute;
+  display: block;
+  top: 175px;
+  right: 200px;
+  width: 425px;
+  height: 300px;
+}
+#personal .container img
+{
+  position: absolute;
+  display: block;
+  top: 550px;
+  left: 200px;
+  width: 300px;
+  height: 425px;
+}
+#aboutimages .container img
+{
+  padding-left: 5px;
+  float: left;
+  width: 330px;
+  height: 190px;
+}
+#index-hardware h3
+{
+  float: right;
+  width: 60%;
+  font-family: Times;
+  font-size: 18px;
+  padding-top: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+}
+#index-hardware p
+{
+  float: right;
+  width: 60%;
+  font-family: Times;
+  font-size: 14px;
+  text-align: center;
+  padding-bottom: 19px;
+  color: rgb(0, 0, 0);
+}
+#hardware-img
+{
+  padding-left: 30px;
+  padding-top: 20px;
+}
+#videos .container1
+{
+  padding-top: 5px;
+  width: 100%;
+  text-align: center;
+}
+#leftbox .content
+{
+  padding: 0;
+}
+#leftbox .content h1
+{
+  margin: 0;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+#leftbox .content p
+{
+  margin: 10px;
+}
+#news
+{
+  position: relative;
+  width: 50%;
+  height: 100%;
+  float: right;
+  box-sizing: border-box;
+}
+#news ul
+{
+  position: absolute;
+  top: 50%;
+  margin: 0;
+  padding: 40px;
+  box-sizing: border-box;
+}
+#news ul li
+{
+  list-style: none;
+  box-sizing: border-box;
+  height: 200px;
+}
+#news ul li .times
+{
+  position: relative;
+  padding: 20px;
+  width: 30%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  transition: 0.5s;
+}
+#news ul li .time h2
+{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  font-size: 60px;
+  line-height: 30px;
+}
+#news ul li .time h2 span
+{
+  font-size: 30px;
+}
+#news ul li .detail
+{
+  padding: 20px;
+  box-sizing: border-box;
+  width: 70%;
+  height: 100%;
+  float: left;
+}
+#news ul li .detail h3
+{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+}
+#news ul li .detail p
+{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+#news ul li .detail a
+{
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 15px;
+  border: 2px solid #262626;
+  margin-top: 15px;
+  font-size: 18px;
+  transition: 0.5s;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)
+{
+  header #branding,
+  header #searchbar,
+  header nav,
+  .footer
+  {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)
+{
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)
+{
+
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px)
+{
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)
+{
+
+}
