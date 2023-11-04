@@ -2,7 +2,7 @@
 
 Welcome to the official repository of Peak Gaming! This gaming website is designed to provide you with an immersive gaming experience, featuring game genres, news, reviews, and computer hardware recommendations.
 
-Visit the website: [Your Website URL](https://peak-gaming-website.netlify.app/)
+Visit the website: [Peak Gaming](https://peak-gaming-website.netlify.app/)
 
 Features
 Game Genres: Explore a wide range of game genres, from action and adventure to shooting and RPG.
